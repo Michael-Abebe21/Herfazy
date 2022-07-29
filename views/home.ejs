@@ -1,0 +1,118 @@
+<%- include('partials/header') %>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo"><img src="Images/Untitled_design-removebg-preview.png"></a>
+            <div class="navbar__toggle" id="mobile-menu">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                     <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">About</a>
+               </li>
+               <li class="navbar__item">
+                <a href="#services" class="navbar__links" id="services-page">Services</a>
+               </li>
+               <li class="navbar__btn">
+                <a href="#container" class="button" id="contact-page">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Hero section-->
+    <div class="home" id="home">
+        <div class="content">
+            <h1 class="hero__heading">Tourism, Hotel and Trade Consulting Company in Ethiopia</h1>
+            <p class="hero__description">We offer consulting services related to the hospitality industry</p>
+            <button class="main__btn"><a href="tel:+251911203937">Call now</a></button>
+        </div>
+        <div class="video-container">
+            <video src="images/Birds - 54309.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </div>
+
+    <!-- About section -->
+    <div class="main" id="about">
+        <div class="main__container">
+            
+            <div class="box">
+                <img src="images/Mr.fantugola.jpg" alt="">
+                <div class="content">
+                    <h2>Ato Fantu Mola</h2>
+                    <h3>Fantu Mola is the founder and manager of Herfazy constultancy.<h3>
+                    <P><a href="mailto:fantu.golasiyoom@gmail.com">Email:fantu.golasiyoom@gmail.com</a></P>
+                </div>
+            </div>
+            
+            <div class="main__content">
+                <h1>What do we do?</h1>
+                <h2>We offer consulting for businesses</h2>
+                <p>Herfazy Consult is a continuation of the Fan Trading & Consultancy Services (Fan Consult) which was established in 1993 by Ato Fantu Gola. It is certified as Management Consultant by the Ethiopian Management Institute and registered with the Ministry of Trade & the Ministry of Finance and Economic Development. The headquarter is located at a prime area in Addis Ababa, Bole Sub-city, Woreda 06, Haile Gebreselassie Street, housed in Getahun Beshah Building.
+                    In its 26 years of consultancy services the company has developed the Tourism plan of the SNNPR and conducted and supported hundreds of hotels in all over the country with providing consultancy services and business development plans.</p>
+                <button class="main__btn"><a href="tel:+251911203937">Call now</a></button>
+            </div>
+        </div>
+    </div>
+    <!-- services section -->
+    <div class="services" id="services">
+        <h1>Our Services</h1>
+        <div class="services__wrapper">
+            <div class="services__card1">
+                <h2>Suggesting travel packages</h2>
+                <p>By observing our clients needs we suggest suitable travel pagckages</p>
+            </div>
+            <div class="services__card2">
+                <h2>Organising travels</h2>
+                <p>We organize our clients travels from beginning to end</p>
+            </div>
+            <div class="services__card3">
+                <h2>Supplying pertinent information</h2>
+                <p>We supply our clients with pertinent information and useful travel/holiday materials</p>
+            </div>
+            <div class="services__card4">
+                <h2>Your wishes</h2>
+                <p>We research and study our clients specifications and wishes</p>
+            </div>
+        </div>
+    </div>
+    <!--contact page-->
+    <div class="container" id="container">
+        <form action="connect.php" method="post">
+    
+          <div class="input-group">
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your name" name="firstName"  id="contact-name" onkeyup="validateName()">
+            <span id="name-error"></span>
+          </div>
+    
+          <div class="input-group">
+            <label>Phone No.</label>
+            <input type="tel" placeholder="09 -- -- -- --" name="phone" id="contact-phone" onkeyup="validatePhone()">
+            <span id="phone-error"></span>
+          </div>
+    
+          <div class="input-group">
+            <label>Email Id</label>
+            <input type="email" placeholder="Enter Email" name="email" id="contact-email" onkeyup="validateEmail()">
+            <span id="email-error"></span>
+          </div>   
+    
+          <div class="input-group">
+            <label>Your Message</label>
+            <textarea rows="5" placeholder="Enter your message" name="message" id="contact-message" onkeyup="validateMessage()"></textarea>
+            <span id="message-error"></span>
+          </div>
+    
+        <button onclick="return validateForm()">Submit</button>
+        <span id="submit-error"></span>
+       
+      </form>
+    
+      </div>
+      <%- include('partials/footer') %>
+    </body>
+</html>
