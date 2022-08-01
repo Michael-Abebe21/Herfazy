@@ -4,6 +4,11 @@
     padding: 0;
     font-family: 'Kumbh Sans', sans-serif;
     scroll-behavior: smooth;
+    
+}
+
+body {
+    overflow-x: hidden;
 }
 
 /* Nav bar */ 
@@ -21,9 +26,9 @@
 
 .Nav-img-link img {
     width: 20%; 
+    margin-top: -13px;
+    margin-bottom: -20px;
     top: 0;
-    margin-top: -15px;
-    margin-bottom: -25px;
     cursor: pointer;
 }
 
@@ -602,91 +607,51 @@ form button{
 
 /* Footer section */
 
-* {
-    margin: 0; 
-    padding: 0;
-    box-sizing: border-box;
+
+.link a {
+    color: black;
+}
+
+.link a:hover {
+    color: #185A9D;
 }
 
 footer {
-    background: #131313; 
-     height: auto; 
-   padding-top: 40px;
-   color: #fff;
+    background-color: #F8F9FA;
+    position: relative;
+    padding: 5%;
 }
 
-.footer-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+.footer-img-link img {
+        width: 70%; 
+        padding-left: 5%;
+        padding-right: 5%;
+        top: 0;
+        cursor: pointer; 
+        margin-top: -5%;
+       
 }
 
-.footer-content img {
-    max-width: 34%;
-    margin-bottom: -40px;
-    }
-.footer-content p{
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 25px;
-    }
-    .socials {
-        list-style: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 1rem 0 3rem 0;
+
+
+@media screen and (max-width: 767px) {
+    .footer-img-link img {
+          margin-left: 65%;
+          margin-right: 50%;
     }
 
-
-.socials li {
-    margin: 0 10px;
-
 }
 
-.socials a {
-    text-decoration: none;
-    color: #fff;
+@media screen and (max-width: 575px) {
+    .footer-img-link img {
+          width: 40%;
+          position: absolute;
+          right: 30%; 
+          margin: 1%;
     }
-.socials a i {
-    font-size: 1.1rem;
-    transition: color .3s ease;
- }
-.socials a:hover i{
-    color: #185A9D;
-}
-.contacts a {
-    text-decoration: none;
-    color: #fff;
-}
-.contacts a {
-    font-size: 1.1rem;
-    transition: color .3s ease;
-}
 
-.contacts a:hover{
-      color: #185A9D;
+  
 }
-.contacts {
-    list-style: none;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0 1rem 0;
-}
-
-.table a {
-   color: #fff;
-   text-decoration: none;
-}
-
-.table a:hover {
-    color: #111;
-}
-
-
 
 
 
