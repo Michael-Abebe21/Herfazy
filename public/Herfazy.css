@@ -620,7 +620,7 @@ background: linear-gradient(to right, #1CB5E0, #000046);
     font-family: 'Poppins', sans-serif;
 }
 .container{
-    width: 100%;
+    max-width: 2000px;
     height: 100vh;
     background: #000046;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
