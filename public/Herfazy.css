@@ -46,7 +46,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #185A9D;;
+    color: #185A9D;
     transition: all 0.3s ease;
 }
 
@@ -120,6 +120,14 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
 .highlight {
     border-bottom: 4px solid #185A9D;
 }
+
+@media screen and (max-height: 480px) {
+    .hero__heading {
+          margin-top: 10%;
+    }
+    
+}
+
 
 @media screen and (max-width: 768px) {
     .hero__heading {
@@ -627,12 +635,16 @@ background: linear-gradient(to right, #1CB5E0, #000046);
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-.container{
-    max-width: 2000px;
-    height: 100vh;
+
+.background{
+    padding-top: 5%;
+    padding-bottom: 5%;
     background: #000046;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contact-container{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -650,7 +662,7 @@ background: linear-gradient(to right, #1CB5E0, #000046);
     text-decoration: none;
 }
 
-.container form{
+.contact-container form{
     width: 90%;
     max-width: 500px;
     padding: 50px 30px 20px;
@@ -708,6 +720,7 @@ form button{
     display: block;
     margin: 30px auto 10px;
 }
+
 
 .input-group span{
     position: absolute; 
@@ -772,10 +785,75 @@ footer {
 }
 
 
+/* About View */ 
 
 
 
+.description h1 {
+    margin-top: 4.5%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    text-align: center;
+    background: #0575E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    color: white;
+}
 
+article {
+    width: 60%;
+    margin: 5%;
+}
+
+@media screen and (max-width: 914px) {
+    .description h1 {
+        padding-top: 10%;
+        padding-bottom: 4%;
+    }
+    
+}
+
+
+@media screen and (max-width: 990px) {
+     article {
+        width: 90%;
+     }
+
+}
+
+/* contact views */
+
+.contact-heading {
+    color: white;
+    padding: 2%;
+}
+
+.list-group {
+    margin: 3%;
+}
+
+.list-group a {
+    color: black;
+}
+
+.list-group a:hover {
+    color: #185A9D;
+}
+
+@media screen and (max-width: 946px) {
+    .contact-heading {
+        padding-top: 5%;
+    }
+    
+}
+
+@media screen and (max-width: 720px) {
+    .contact-heading {
+        padding-top: 10%;
+    }
+    
+}
 
 
 
