@@ -14,24 +14,28 @@ app.use(bodyParser.urlencoded({
 app.get("/", function(req, res) {
 res.render("home")
 })
-
 app.get("/about", function(req, res) {
     res.render("about")
   })
-
-  app.get("/fantu", function(req, res) {
+ app.get("/fantu", function(req, res) {
     res.render("fantu")
   })
 
-
-  app.get("/contact", function(req, res) {
+app.get("/contact", function(req, res) {
     res.render("contact")
   })
-
-  app.get("/home", function(req, res) {
+app.get("/home", function(req, res) {
     res.render("home")
   })
-
+app.get("/Tourism", function(req, res) {
+  res.render("Tourism")
+})
+app.get("/Governance", function(req, res) {
+  res.render("Governance")
+})
+app.get("/Risk", function(req, res) {
+  res.render("Risk")
+})
 
 app.listen(3000, function() {
  console.log("Server is live on port 3000")

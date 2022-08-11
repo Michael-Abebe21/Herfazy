@@ -34,8 +34,8 @@ body {
 
 .nav-link{
           
-          margin-right: 15px;
-          margin-left: 15px;
+          margin-right: 20px;
+          margin-left: 20px;
           font-size: large;
           display: flex;
           justify-content: center;
@@ -61,8 +61,8 @@ body {
 }
 
 .button {
-    margin-right: 10px;
-    margin-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,6 +79,7 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
     color: #fff;
     transition: all 0.3s ease;
 }
+
 
 
 /* Hero Section */ 
@@ -383,11 +384,11 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
 
 .services__wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     }
 .services__card1 {
-    margin: 10px;
+    margin: 10px 30px;
     height: 425px;
     width: 300px;
     border-radius: 4px;
@@ -395,13 +396,13 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(images/Travel_packages_RS.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(images/Hospitality.jpg);
     background-size: 300px 425px; 
     transition: 0.3s ease-in;
 
 }
 .services__card2 {
-    margin: 10px;
+    margin: 10px 30px;
     height: 425px;
     width: 300px;
     border-radius: 4px;
@@ -409,14 +410,14 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(images/Organising_travels_RS.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(images/Public_admin.jpg);
     background-size: 300px 425px; 
     transition: 0.3s ease-in;
 
 }
 
 .services__card3 {
-    margin: 10px;
+    margin: 10px 30px;
     height: 425px;
     width: 300px;
     border-radius: 4px;
@@ -430,20 +431,7 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
 
 }
 
-.services__card4 {
-    margin: 10px;
-    height: 425px;
-    width: 300px;
-    border-radius: 4px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #fff;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(images/wishes_RS\ .jpg);
-    background-size: 300px 425px;
-    transition: 0.3s ease-in;
 
-}
 
 .services__card1 h2 {
     text-align: center;
@@ -503,25 +491,7 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
     transition: 0.3s ease-in;
     cursor: pointer;
 }
-.services__card4 h2 {
-    text-align: center;
-}
 
-.services__card4 p {
-    text-align: center;
-    margin-top: 24px;
-    font-size: 20px;
-}
-
-.services__card4:hover {
-    cursor: pointer;
-}
-
-.services__card4:hover {
-    transform: scale(1.075);
-    transition: 0.3s ease-in;
-    cursor: pointer;
-}
 
 .services__btn {
     display: flex;
@@ -529,28 +499,6 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
     margin-top: 16px;
 }
 
-.services__card4 button {
-    color: #fff;
-    padding: 14px 24px;
-    border: none;
-    outline: none;
-    border-radius: 4px;
-    background: #000046;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #1CB5E0, #000046);
-    font-size: 1rem;
-}
-
-.services__card4 button:hover {
-    cursor: pointer;
-
-}
-
-.services__card4:hover {
-    transform: scale(1.075);
-    transition: 0.3s ease-in;
-    cursor: pointer;
-}
 
 .services__card3 button {
     color: #fff;
@@ -878,7 +826,112 @@ article {
     color: #185A9D;
 }
 
+/* Tourism view */
+
+.Tourism-header {
+    background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(images/Travel.jpg);
+    padding: 2%;
+    margin-top: 4.5%;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    .Tourism-header h1 {
+        margin-top: 5%;
+        padding-top: 10%;
+        padding-bottom: 4%;
+    }
+    
+}
+
+@media screen and (max-width: 914px) {
+    .Tourism-header h1 {
+        padding-top: 10%;
+        padding-bottom: 4%;
+    }
+    
+}
 
 
+@media screen and (max-width: 1127px) {
+    .Tourism-header h1 {
+        padding-top: 5%;
+        padding-bottom: 3%;
+    }
+    
+}
+
+/* Governance view */ 
+
+.governance-header {
+        background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(images/Governance_headerBG.jpg);
+        padding: 2%;
+        margin-top: 4.5%;
+        color: white;
+        text-align: center;
+    
+}
+
+@media screen and (max-width: 700px) {
+    .governance-header h1 {
+        margin-top: 5%;
+        padding-top: 10%;
+        padding-bottom: 4%;
+    }
+    
+}
+
+@media screen and (max-width: 914px) {
+    .governance-header h1 {
+        padding-top: 10%;
+        padding-bottom: 4%;
+    }
+    
+}
 
 
+@media screen and (max-width: 1127px) {
+    .governance-header h1 {
+        padding-top: 5%;
+        padding-bottom: 3%;
+    }
+    
+}
+
+/* Risk View */
+
+.risk-header {
+    background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(images/Risk_header.jpg);
+    padding: 2%;
+    margin-top: 4.5%;
+    color: white;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 700px) {
+.risk-header h1 {
+    margin-top: 5%;
+    padding-top: 10%;
+    padding-bottom: 4%;
+}
+
+}
+
+@media screen and (max-width: 914px) {
+.risk-header h1 {
+    padding-top: 10%;
+    padding-bottom: 4%;
+}
+
+}
+
+
+@media screen and (max-width: 1127px) {
+.risk-header h1 {
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+}
