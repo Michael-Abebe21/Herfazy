@@ -19,6 +19,11 @@ app.get("/about", function(req, res) {
     res.render("about")
   })
 
+  app.get("/fantu", function(req, res) {
+    res.render("fantu")
+  })
+
+
   app.get("/contact", function(req, res) {
     res.render("contact")
   })

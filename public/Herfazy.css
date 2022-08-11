@@ -335,7 +335,9 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
         align-items: center;
         justify-content: center; 
         display: flex;
-        margin: auto;
+        margin: -50px;
+        margin-left: 0;
+        margin-right: 0;
     }
     .img-fluid {
         height: 70%;
@@ -835,6 +837,7 @@ article {
 
 .list-group a {
     color: black;
+    text-decoration: none;
 }
 
 .list-group a:hover {
@@ -855,12 +858,25 @@ article {
     
 }
 
+/* Fantu view */
+
+.fantu-profile {
+    margin-top: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fantu-profile a {
+   color: black;
+   text-decoration: none;
+}
 
 
-
-
-
-
+.fantu-profile a:hover {
+    color: #185A9D;
+}
 
 
 
