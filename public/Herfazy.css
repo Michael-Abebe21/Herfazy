@@ -115,6 +115,8 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
 
 .hero__description {
     font-size: 30px;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
     color: #fff;
 }
 
@@ -566,6 +568,23 @@ background: linear-gradient(to right, #1CB5E0, #000046);
     transition: 0.3s ease-in;
     cursor: pointer;
 }
+
+.carousel-inner .carousel-item img { margin:auto; }
+
+.companies {
+    margin-top: -5%;
+    background-color: #F8F9FA;
+    padding-bottom: 5%;
+}
+
+.companies h2 {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+
+
+
 @media screen and (max-width: 1300px) {
     .services__wrapper {
         grid-template-columns: 1fr 1fr;
@@ -935,3 +954,5 @@ article {
 }
 
 }
+
+
