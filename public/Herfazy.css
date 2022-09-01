@@ -811,7 +811,7 @@ article {
 
 .contact-heading {
     color: white;
-    padding: 2%;
+    padding: 5%;
 }
 
 .list-group {
@@ -829,14 +829,14 @@ article {
 
 @media screen and (max-width: 946px) {
     .contact-heading {
-        padding-top: 5%;
+        padding-top: 10%;
     }
     
 }
 
 @media screen and (max-width: 720px) {
     .contact-heading {
-        padding-top: 10%;
+        padding-top: 15%;
     }
     
 }
