@@ -16,7 +16,7 @@ body {
     position: fixed; 
     top: 0; 
     width: 100%; 
-    z-index: 1;
+    z-index: 20;
 }
 
 .nav-href{
@@ -98,10 +98,11 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
   }
   .home .video-container video{
     position: absolute;
-    top:0; left: 0;
-    z-index: -1;
-    height: 100%;
-    width:100%;
+    top: 0;
+    z-index: -2;
+    width: 100%;
+    height: calc(111vh - 80px);
+    min-height: 600px;
     object-fit: cover;
   }
   
@@ -131,6 +132,20 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
     
 }
 
+.wrapper {
+        position: absolute;
+        width: 100%;
+      }
+      
+.gradient {
+        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3));
+        width: 100%;
+        height: calc(111vh - 80px);
+        min-height: 600px;
+        object-fit: cover;
+        position: relative;
+        z-index: -1;
+      }
 
 @media screen and (max-width: 768px) {
     .hero__heading {
@@ -781,6 +796,10 @@ article {
         padding-bottom: 4%;
     }
     
+}
+
+.founder-header {
+    padding-top: 3%;
 }
 
 
