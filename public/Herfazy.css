@@ -13,7 +13,6 @@ body {
 
 /* Nav bar */ 
 .navbar {
-    padding-top: 1.5%;
     position: fixed; 
     top: 0; 
     width: 100%; 
@@ -81,7 +80,24 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
     transition: all 0.3s ease;
 }
 
-
+@media screen and (max-width: 550px) {
+    .navbar {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        position: fixed; 
+        top: 0; 
+        width: 100%; 
+        z-index: 20;
+    }
+    .Nav-img-link img {
+        width: 30%; 
+        margin-top: -13px;
+        margin-bottom: -20px;
+        top: 0;
+        cursor: pointer;
+    }
+    
+}
 
 /* Hero Section */ 
 .home{
