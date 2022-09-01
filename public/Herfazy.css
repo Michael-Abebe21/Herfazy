@@ -867,7 +867,7 @@ article {
 /* Tourism view */
 
 .Tourism-header {
-    background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(images/Travel.jpg);
+    background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(./images/Travel.jpg);
     padding: 2%;
     margin-top: 4.5%;
     color: white;
@@ -903,7 +903,7 @@ article {
 /* Governance view */ 
 
 .governance-header {
-        background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/images/Governance_headerBG.jpg);
+        background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(./images/Governance_headerBG.jpg);
         padding: 2%;
         margin-top: 4.5%;
         color: white;
@@ -940,7 +940,7 @@ article {
 /* Risk View */
 
 .risk-header {
-    background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/images/Risk_header.jpg);
+    background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(./images/Risk_header.jpg);
     padding: 2%;
     margin-top: 4.5%;
     color: white;
