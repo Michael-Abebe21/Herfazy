@@ -413,7 +413,7 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(images/Hospitality.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/images/Hospitality.jpg);
     background-size: 300px 425px; 
     transition: 0.3s ease-in;
 
@@ -427,7 +427,7 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(images/Public_admin.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/images/Public_admin.jpg);
     background-size: 300px 425px; 
     transition: 0.3s ease-in;
 
@@ -442,7 +442,7 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(images/supplying_information_RS.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/images/supplying_information_RS.jpg);
     background-size: 300px 425px; 
     transition: 0.3s ease-in;
 
@@ -903,7 +903,7 @@ article {
 /* Governance view */ 
 
 .governance-header {
-        background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(images/Governance_headerBG.jpg);
+        background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/images/Governance_headerBG.jpg);
         padding: 2%;
         margin-top: 4.5%;
         color: white;
@@ -940,7 +940,7 @@ article {
 /* Risk View */
 
 .risk-header {
-    background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(images/Risk_header.jpg);
+    background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/images/Risk_header.jpg);
     padding: 2%;
     margin-top: 4.5%;
     color: white;
