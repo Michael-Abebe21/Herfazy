@@ -1,10 +1,15 @@
-
-
-body {
-    overflow-x: hidden;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding-top: 50%;
+    font-family: 'Kumbh Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
-/* Nav bar */ 
+body, html {
+    overflow-x: hidden;
+    }
+
 .navbar {
     position: fixed; 
     top: 0; 
@@ -19,8 +24,6 @@ body {
 
 .Nav-img-link img {
     width: 20%; 
-    margin-top: -13px;
-    margin-bottom: -20px;
     top: 0;
     cursor: pointer;
 }
@@ -36,6 +39,7 @@ body {
           text-decoration: none;
           height: 100%;
           width: 100%;
+          
 }
 
 .nav-link:hover {
@@ -137,6 +141,7 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
         object-fit: cover;
         position: relative;
         z-index: -1;
+        
       }
 
 @media screen and (max-width: 768px) {
@@ -348,6 +353,7 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
         margin: -50px;
         margin-left: 0;
         margin-right: 0;
+        overflow-x: hidden;
     }
     .img-fluid {
         height: 70%;
@@ -736,7 +742,6 @@ footer {
         top: 0;
         cursor: pointer; 
         margin-top: -5%;
-       
 }
 
 
@@ -767,8 +772,8 @@ footer {
 
 .description h1 {
     margin-top: 4.5%;
-    padding-top: 3%;
-    padding-bottom: 1%;
+    padding-top: 5%;
+    padding-bottom: 2%;
     text-align: center;
     background: #0575E6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
@@ -784,8 +789,8 @@ article {
 
 @media screen and (max-width: 914px) {
     .description h1 {
-        padding-top: 10%;
-        padding-bottom: 4%;
+        padding-top: 15%;
+        padding-bottom: 6%;
     }
     
 }
@@ -860,7 +865,8 @@ article {
 
 .Tourism-header {
     background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(./Images/Travel.jpg);
-    padding: 2%;
+    padding-top: 5%;
+    padding-bottom: 2%;
     margin-top: 4.5%;
     color: white;
     text-align: center;
@@ -869,16 +875,16 @@ article {
 @media screen and (max-width: 700px) {
     .Tourism-header h1 {
         margin-top: 5%;
-        padding-top: 10%;
-        padding-bottom: 4%;
+        padding-top: 15;
+        padding-bottom: 6%;
     }
     
 }
 
 @media screen and (max-width: 914px) {
     .Tourism-header h1 {
-        padding-top: 10%;
-        padding-bottom: 4%;
+        padding-top: 15%;
+        padding-bottom: 6%;
     }
     
 }
@@ -896,7 +902,8 @@ article {
 
 .governance-header {
         background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(./Images/Governance_headerBG.jpg);
-        padding: 2%;
+        padding-top: 5%;
+        padding-bottom: 2%;
         margin-top: 4.5%;
         color: white;
         text-align: center;
@@ -906,16 +913,16 @@ article {
 @media screen and (max-width: 700px) {
     .governance-header h1 {
         margin-top: 5%;
-        padding-top: 10%;
-        padding-bottom: 4%;
+        padding-top: 15%;
+        padding-bottom: 6%;
     }
     
 }
 
 @media screen and (max-width: 914px) {
     .governance-header h1 {
-        padding-top: 10%;
-        padding-bottom: 4%;
+        padding-top: 15%;
+        padding-bottom: 6%;
     }
     
 }
@@ -933,7 +940,8 @@ article {
 
 .risk-header {
     background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(./Images/Risk_header.jpg);
-    padding: 2%;
+    padding-top: 5%;
+    padding-bottom: 2%;
     margin-top: 4.5%;
     color: white;
     text-align: center;
@@ -943,16 +951,16 @@ article {
 @media screen and (max-width: 700px) {
 .risk-header h1 {
     margin-top: 5%;
-    padding-top: 10%;
-    padding-bottom: 4%;
+    padding-top: 15%;
+    padding-bottom: 6%;
 }
 
 }
 
 @media screen and (max-width: 914px) {
 .risk-header h1 {
-    padding-top: 10%;
-    padding-bottom: 4%;
+    padding-top: 15%;
+    padding-bottom: 6%;
 }
 
 }
