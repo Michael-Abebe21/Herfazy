@@ -13,6 +13,7 @@ body {
 
 /* Nav bar */ 
 .navbar {
+    padding-top: 1.5%;
     position: fixed; 
     top: 0; 
     width: 100%; 
